@@ -26,6 +26,8 @@ def __():
     import polars as pl
     import polars_sim as ps
 
+    from typing import Iterable
+
     from faker import Faker
 
     import plotly.express as px
